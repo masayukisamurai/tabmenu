@@ -1,0 +1,46 @@
+#tab {
+  background-color: #eee;
+  padding: 30px;
+}
+
+#tab .container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#tab .tab {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#tab .tab li a {
+  background-color: gold;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 0;
+  width: 200px;
+  text-decoration: none;
+}
+
+#tab .content.active {
+  background-color: white;
+  min-height: 200px;
+  padding: 30px;
+  display: block;
+}
+
+#tab .content {
+  display: none;
+}
+
+#tab .content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.tab li a.active {
+  background-color: white;
+  color: black;
+}
